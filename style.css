@@ -62,7 +62,7 @@ body {
   background-image: url(images/00.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  transition: background-image 3s ease;
+  transition: background-image 2.9s ease;
 }
 
 /* image description */
