@@ -5,7 +5,7 @@ const imageDescription = document
 
 let currentImage = 0;
 const imagesNumber = 6;
-const transitionTime = 4500;
+const transitionTime = 3000;
 
 const dots = Array.from(document.getElementsByClassName("dot"));
 dots[currentImage].style.backgroundColor = "#fff";
