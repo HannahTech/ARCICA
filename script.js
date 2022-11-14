@@ -18,7 +18,7 @@ const transition = (nextImage = -1) => {
   currentImage = nextImage < 0 ? (currentImage + 1) % imagesNumber : nextImage;
   dots[currentImage].style.backgroundColor = "#fff";
   imageDescription[currentImage].style.opacity = "1"; //imageDescription
-  firstDiv.style.backgroundImage = `url(images/0${currentImage}.jpg)`;
+  firstDiv.style.backgroundImage = `url(images/0${currentImage}.webp)`;
 };
 
 let interval = setInterval(transition, transitionTime);
